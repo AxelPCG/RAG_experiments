@@ -1,0 +1,19 @@
+{
+    "collection_name": "fluidos",
+    "chunk_sizes": ["Page"],
+    "chunk_overlaps": [100, 0],
+    "embeddings_models": ["intfloat/multilingual-e5-large"],
+    "arquivo_ids_to_process": ["fluidos_13472", 
+                               "fluidos_11484", 
+                               "fluidos_13852", 
+                               "fluidos_11640", 
+                               "fluidos_13271", 
+                               "fluidos_13417", 
+                               "fluidos_13572", 
+                               "fluidos_4802"],
+    "pdf_dir": "C:/Users/axel.chepanski/doutor-ia/1 - extract-pdfs-transformer/data/outputs_vision_and_extractor",
+    "loaders": ["PyMuPDFLoader"],
+    "vision": ["Vision (gpt-4o-mini)"],
+    "qdrant_url": "https://<sua-instancia-qdrant>.gcp.cloud.qdrant.io:6333",
+    "qdrant_api_key": "<seu-api-key>"
+}

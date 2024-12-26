@@ -1,0 +1,38 @@
+# Core Dependencies
+pillow==11.0.0
+datasets==3.1.0
+
+# Document Processing
+fitz==0.0.1.dev2
+pytesseract==0.3.13
+pymupdf==1.24.14
+transformers==4.46.3
+torch==2.5.1
+pdf2image==1.17.0
+sentencepiece==0.2.0
+sentence-transformers==3.3.1
+
+# LangChain Ecosystem
+langchain==0.3.12
+langchain-core==0.3.25
+langchain-community==0.3.12
+langchain-openai==0.2.12
+langchain-qdrant==0.2.0
+langgraph==0.2.39
+langchain_huggingface== 0.1.2
+
+# Vector Stores and Embeddings
+qdrant_client==1.12.1
+
+# LLM and APIs
+openai==1.55.1
+
+# Evaluation
+ragas==0.2.8
+
+# Development and Interface
+ipykernel==6.29.5
+streamlit==1.41.1
+
+# Utilities
+python-dotenv==1.0.1
