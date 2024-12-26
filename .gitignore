@@ -1,0 +1,86 @@
+venv/
+venv_doutor_ie
+.env
+.env*
+.env*/*
+*venv*/*
+*qdrant_storage*
+llm-server-env/
+
+chroma_db/
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.virtualenv/
+
+# Environment variables
+.env
+.env*
+.env*/*
+
+files/Livros/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Project-specific
+qdrant_storage/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+*.sqlite
+.aider*
+
+# Data
+data/
+.data/
+rag_evaluation_results/
