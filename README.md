@@ -27,4 +27,4 @@ streamlit run src/retrievel.py
 
 ## Necessary services:
 
-The RAG uses **Llama 3.1 8b** as its main model. This must be running locally with ollama. In addition, it is also necessary to have an instance of **Qdrant** also running locally on port `6333`
+The RAG uses **Llama 3.1 8b** as its main model. This must be running locally with ollama. In addition, it is also necessary to have an instance of **Qdrant** also running locally on port `6333` or `8888`
