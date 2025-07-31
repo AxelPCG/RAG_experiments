@@ -1,4 +1,4 @@
-<h1 align="center">Doutor IE RAG experiments</h1>
+<h1 align="center">RAG experiments</h1>
 
 <p align="center">
   Experiments for the implementation of a RAG that help in the search for pertinent information from the automotive world. Being powered by high quality manuals provided by Doutor IE.
